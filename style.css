@@ -21,3 +21,76 @@ nav ul li a {
     color: #fff;
     font-size: 20px;
 }
+
+
+
+body{
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+   
+    line-height: 60px;
+    
+    display:inline;
+    padding:60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #c77d7d;
+    font-size: 20px;
+}
+header h1{
+    text-align: center;
+    color: #277490;
+    font-size: 30px;
+    padding: 10px;
+}
+ header  p {
+    font-style: italic;
+}
+article p {
+    font-size: 24px;
+}
+main{
+    padding-left: 20px;
+}
+article {
+    text-align: center;
+}
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 20px; 
+        height:  auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    border-radius: 0;
+    border: 5px solid #277490;
+}
