@@ -98,8 +98,8 @@ nav ul li a:hover {
 }
 
 .section ul li::before {
-    content: "✔";
-    color: #0077cc;
+    content:icon;
+    color: #709fc1;
     font-weight: bold;
     margin-right: 10px;
 }
@@ -118,13 +118,13 @@ table, th, td {
 }
 
 th {
-    background-color: #0077cc;
+    background-color: #72a2c5;
     color: white;
 }
 
 
 footer {
-    background: #0077cc;
+    background: #5d89a8;
     color: white;
     text-align: center;
     padding: 10px;

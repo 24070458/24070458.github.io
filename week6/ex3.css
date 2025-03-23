@@ -1,0 +1,26 @@
+.product-quan{display:none}
+.product img{
+    width: 150px;
+    height: 150px;
+    border-radius:20px ;
+    box-shadow: 5px 5px 50px #aaa;
+}
+.product-biboii{font-weight: bold;}
+.product-price{font-style: italic;}
+.product-price::before{content: "-";}
+.product-price::after{content: " VND";}
+.product
+{
+    width: 100px;
+    height: 300px;
+    text-align: center;
+    margin: 0px 20px;
+    float: left;
+cursor:pointer;
+}
+.product:hover .product-quan{display:block;}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
